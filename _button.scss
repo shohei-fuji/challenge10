@@ -1,0 +1,46 @@
+.btn {
+    padding: 10px 15px;
+    border-radius: $base-border-radius;
+    font-size: 1em;
+    color: black;
+      }
+  
+  .btn-submit {
+    background-color: #D9728E;
+    border-color: #D9728E;
+    color: $white;
+    &:hover {
+        background-color: #DF8BA2;
+        border-color: #DF8BA2;
+        color: $white;
+      }
+  }
+  
+  
+  
+  input[type=checkbox], 
+  input[type=email], 
+  input[type=number], 
+  input[type=password], 
+  input[type=radio], 
+  input[type=tel], 
+  input[type=text], 
+  select, 
+  textarea {
+      border: 1px solid #b9b9af;
+      padding: 10px;
+      background-color: $white;
+      border-radius: $base-border-radius;
+      outline: none;
+      font-size: 1em;
+  }
+  
+  input[type=email], 
+  input[type=number], 
+  input[type=password], 
+  input[type=tel], 
+  input[type=text], 
+  textarea {
+      width: 100%;
+  }
+  

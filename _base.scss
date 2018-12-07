@@ -1,0 +1,40 @@
+/* main */
+
+.form-wrapper {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 15px;
+    border: 1px solid #DEDEDE;
+    border-radius: $base-border-radius;
+  }
+  
+  .fieldset {
+    margin-bottom: 1em;
+  }
+  
+  textarea {
+    max-width: 100%;
+    resize: none;
+  }
+  
+  @media (min-width: 600px) {
+    label {
+      text-align: right;
+      margin-bottom: 5px;
+    }
+  
+    .fieldset {
+      display: flex;
+      align-items: center;
+    }
+  
+    .nowrap-field {
+      flex-wrap: nowrap;
+    }
+  
+    .submit-button-wrapper {
+      text-align: right;
+    }
+  }
+  
+  
